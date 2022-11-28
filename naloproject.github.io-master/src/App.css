@@ -1,0 +1,66 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+.header{
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+
+.log{
+  margin: 0px 60px;
+  padding: 0px 20px;
+}
+
+.field{
+  margin: 30px auto;
+}
+.field label{
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+.field input, textarea{
+  background-color: transparent;
+  width: 160px;
+  height: 20px;
+  
+}
+
+.field textarea:focus, input:focus{
+  outline: none;
+}
+
+.fields{
+  margin: 20px 0;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fields input{
+  margin: 10px 20px;
+  font-weight: 300;
+}
+
+#btn{
+  margin-left: 70px;
+  padding: 10px 40px;
+  background-color: blue;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#btn:hover{
+  background-color: rgb(209, 209, 72);
+  color: white;
+}
